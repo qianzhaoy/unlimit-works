@@ -22,7 +22,6 @@ class CreateScreen {
     constructor(canvasDom, options = {}) {
         const screenWidth = document.body.clientWidth;
         const screenHeight = document.body.clientHeight;
-
         this.bgImage = bgImage;
         this.canvas = canvasDom;
         this.ctx = canvasDom.getContext('2d');

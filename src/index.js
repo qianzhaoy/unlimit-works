@@ -33,10 +33,6 @@ window.addEventListener('load', () => {
         event.preventDefault();
     });
 
-    window.addEventListener('contextmenu', function(e){
-        e.preventDefault();
-    });
-    
     let touchPageY;
     let timer;
     let i = 0.01;
