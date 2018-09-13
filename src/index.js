@@ -27,6 +27,9 @@ window.addEventListener('load', () => {
         }
     })
     document.getElementById('start').addEventListener('touchstart', btnTouchdown);
+    document.getElementById('start').addEventListener('contextmenu', (event) => {
+        event.preventDefault();
+    });
     // document.body.addEventListener('touchmove', btnTouchmove);
     document.body.addEventListener('touchend', btnTouchend);
     document.body.addEventListener('touchstart', (event) => {
